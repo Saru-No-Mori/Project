@@ -1,1 +1,90 @@
 
+
+<!DOCTYPE html>
+<html lang="fr">
+	<head> <!-- config -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>HelloWorlds</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="main.js"></script>
+	</head>
+
+
+<body id="page">
+	<header class="pageElement">
+			<!-- en tête -->
+			<div id="conteneur" id="my-div">
+				<div class="headerElement" style="cursor: pointer;" onclick="goToUrl('HelloWorlds.html')"> <a><em>Welcome</em></a></div>
+				<div class="headerElement" style="cursor: pointer;" onclick="goToUrl('Gallery.html')"><a><strong>Gallery</strong></a></div>
+				<div class="headerElement" style="cursor: pointer;" onclick="goToUrl('Download.html')"><a><strong>Download</strong></a></div>
+				<div class="headerElement"style="cursor: pointer;" onclick="goToUrl('Contact.html')"><a><strong>Contact</strong></a></div>
+			</div>
+	</header>
+	<nav class="pageElement">
+	<!-- onglets recherche marge gauche-->
+			<!-- liens de navigation -->
+				<p>
+				<h2 class="navlog">Lien page: </h2>
+				<ul>
+				<li class="fastLog"><a href="HelloWorlds.html">Welcome</a></li>
+				<li class="fastLog"><a href="Gallery.html">Gallery</a></li>
+				<li class="fastLog"><a href="Download.html">Download</a></li>
+				<li class="fastLog"><a href="Contact.html">Contact</a></li>
+				</ul>
+			</p>
+			<p>
+				<h2 class="navlog">Lien sujet : </h2>
+				<ul>
+				<li class="fastLog"><a href="#">Sommaire</a></li>
+				<li class="fastLog"><a href="#">Les Titres</a></li>
+				<li class="fastLog"><a href="#">Les modifications de caractère</a><br></li>
+				<li class="fastLog"><a href="#">Les listes</a></li>
+				<li class="fastLog"><a href="#">Les liens hypertexte</a></li>
+				<li class="fastLog"><a href="#">Les mails</a></li>
+				<li class="fastLog"><a href="#">Les telechargements</a></li>
+				<li class="fastLog"><a href="#">Les images</a></li>
+				</ul>
+			</p>
+	</nav>
+	<section  class="pageElement">
+
+		<article  id="yo" >
+
+
+			<video controls width="100%" height="100%" poster="initialimage.png" autoplay muted>
+				<source src="videofile.mp4" type="video/mp4">
+
+				<!-- fallback pour les navigateurs qui ne supportent pas mp4 -->
+				<source src="video/webm/videoTest.webm" type="video/webm">
+
+				<!-- spécifie les fichiers de sous-titres -->
+				<track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+				<track src="subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+
+				<!-- fallback pour les navigateurs qui ne supportent pas la balise video -->
+				<a href="videofile.mp4">download video</a>
+			  </video>
+
+
+		</article>
+
+		<!-- section de page-->
+	</section>
+	<aside class="pageElement">
+	</aside >
+
+<footer>
+		<div id="conteneur">
+			<div id="footerElement1" onclick="slide('top')" style="cursor: pointer;" class="footerElement">Element 01</div>
+			<div class="footerElement" style="cursor: pointer;">Element 02</div>
+			<div class="footerElement" style="cursor: pointer;">Element 03</div>
+			<div class="footerElement" style="cursor: pointer;">Element 04</div>
+			<div class="footerElement" style="cursor: pointer;">Element 05</div>
+		</div>
+	</footer>
+</body>
+
+</html>
