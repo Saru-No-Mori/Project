@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saru-No-Mori/Project.git"
+  },
+  "keywords": [
+    "ceciestungit"
+  ],
+  "author": "Enkio, Saru-shin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saru-No-Mori/Project/issues"
+  },
+  "homepage": "https://github.com/Saru-No-Mori/Project#readme"
+}
